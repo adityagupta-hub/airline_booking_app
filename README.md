@@ -48,7 +48,7 @@ This project is a secure-by-default airline booking backend built with Python an
 pytest -q
 ```
 
-## Security guardrail checks
+## Security guardrail checks (test review)
 
 ```bash
 bandit -r app
