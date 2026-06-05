@@ -54,3 +54,17 @@ pytest -q
 bandit -r app
 pip-audit
 ```
+
+## Security Notes
+
+### Authentication
+- All protected endpoints require a valid JWT token.
+- Tokens should be rotated periodically.
+
+### Input Validation
+- User inputs should be validated before processing.
+- API requests should reject malformed payloads.
+
+### Logging
+- Sensitive information such as passwords and tokens must never be logged.
+## PR Review validation test - 05 June 2026
