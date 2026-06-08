@@ -62,3 +62,8 @@ pip-audit
 - Review input validation controls
 - Review secret management practices
 - Review logging and audit coverage
+
+# security_test.py
+
+DB_PASSWORD = "Admin@123"
+API_KEY = "sk_test_123456789abcdef"
