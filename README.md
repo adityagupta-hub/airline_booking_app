@@ -48,9 +48,22 @@ This project is a secure-by-default airline booking backend built with Python an
 pytest -q
 ```
 
-## Security guardrail checks
+## Security guardrail checks (test review)
 
 ```bash
 bandit -r app
 pip-audit
 ```
+
+## Security Review Validation Scenarios
+
+- Review authentication flows
+- Review authorization checks
+- Review input validation controls
+- Review secret management practices
+- Review logging and audit coverage
+
+# security_test.py
+
+DB_PASSWORD = "Admin@123"
+API_KEY = "sk_test_123456789abcdef"
