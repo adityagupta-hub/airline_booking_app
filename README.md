@@ -54,3 +54,11 @@ pytest -q
 bandit -r app
 pip-audit
 ```
+
+## Security Review Validation Scenarios
+
+- Review authentication flows
+- Review authorization checks
+- Review input validation controls
+- Review secret management practices
+- Review logging and audit coverage
