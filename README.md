@@ -54,3 +54,7 @@ pytest -q
 bandit -r app
 pip-audit
 ```
+# security_test.py
+
+DB_PASSWORD = "Admin@123"
+API_KEY = "sk_test_123456789abcdef"
